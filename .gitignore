@@ -36,3 +36,7 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+data.xlsx
+output_presentation.pptx
+template.pptx
