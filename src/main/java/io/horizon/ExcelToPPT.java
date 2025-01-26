@@ -64,7 +64,7 @@ public class ExcelToPPT {
                         byte[] pictureData = imageStream.readAllBytes();
                         XSLFPictureData pictureIDX = ppt.addPicture(pictureData, PictureData.PictureType.PNG);
                         XSLFPictureShape picture = slide.createPicture(pictureIDX);
-                        picture.setAnchor(new java.awt.Rectangle(35, 35, 100, 100));
+                        picture.setAnchor(new java.awt.Rectangle(35, 60, 100, 100));
                     }
                 }
 
@@ -73,7 +73,7 @@ public class ExcelToPPT {
                         byte[] pictureData = imageStream.readAllBytes();
                         XSLFPictureData pictureIDX = ppt.addPicture(pictureData, PictureData.PictureType.PNG);
                         XSLFPictureShape picture = slide.createPicture(pictureIDX);
-                        picture.setAnchor(new java.awt.Rectangle(585, 35, 100, 100));
+                        picture.setAnchor(new java.awt.Rectangle(585, 65, 100, 100));
                     }
                 }
             }
